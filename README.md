@@ -6,7 +6,7 @@ The Ecommerce Furniture is my project to complete my Internship Course, and it i
 - Easy to access, easy to use.
 
 ## Support the project
-If you catch anything bug, please dm me:
+If you catch any bug, please dm me:
 >    - Instagram : [@babyamrius](https://www.instagram.com/babyamrius)
  >   - Facebook : [Minh Phát(Downii)](https://www.facebook.com/braindoti)
 # 1. Configuration requirements
