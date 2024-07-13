@@ -7,8 +7,8 @@ The Ecommerce Furniture is my project to complete my Internship Course, and it i
 
 ## Support the project
 If you catch anything bug, please dm me:
->    - Instagram : <a href="instagram.com/babyamrius/">@babyamrius</a>
- >   - Facebook : <a href="facebook.com/braindoti/">Minh Phát(Downii)</a>
+>    - Instagram : [<a href="instagram.com/babyamrius/">@babyamrius</a>](https://www.instagram.com/babyamrius/)
+ >   - Facebook : [<a href="facebook.com/braindoti/">Minh Phát(Downii)</a>](https://www.facebook.com/braindoti/)
 # 1. Configuration requirements
 > - Web Server: Apache
 > - Version PHP >= 8.0
