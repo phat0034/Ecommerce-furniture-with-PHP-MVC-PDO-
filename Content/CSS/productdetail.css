@@ -1,0 +1,334 @@
+.detail_product_all {
+    height: 100%;
+    padding: 40px 120px;
+}
+
+.product_detail {
+    width: 550px;
+}
+
+.img_detail img {
+    width: 100%;
+    height: 550px;
+    border-radius: 10%;
+}
+
+.product_detail .part1 h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product_detail .part1 p.description {
+    max-width: 500px;
+    font-size: 15px;
+}
+
+.product_detail .part1 p.loai {
+
+    max-width: 500px;
+    font-size: 13px;
+}
+
+.product_detail .part1 p.price {
+    color: #ff1616;
+    max-width: 500px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product_detail .part1 p.color {
+    color: #000;
+    max-width: 500px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product_detail .part1 ul {
+    display: flex;
+    padding: 0;
+}
+
+.product_detail .part1 ul li {
+    margin: 0 10px 0 0;
+    list-style: none;
+}
+
+.product_detail .part1 ul a {
+    display: inline-block;
+    width: 30px;
+    /* Điều chỉnh kích thước theo ý muốn */
+    height: 30px;
+    /* Điều chỉnh kích thước theo ý muốn */
+    border-radius: 50%;
+    /* Áp dụng hình tròn bằng cách sử dụng giá trị 50% */
+
+
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.product_detail .part1 .add2Cart {
+    width: 140px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+    font-size: 17px;
+    border: 1px solid rgb(193, 196, 201);
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+.product_detail .part1 .addwish {
+    gap: 3%;
+}
+
+.product_detail .part1 .addwish button {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+    font-size: 17px;
+    border: 1px solid rgb(193, 196, 201);
+    font-weight: 400;
+    color: #000;
+}
+
+.product_detail .part2 {
+    padding: 10px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.product_detail .col-6 input {
+    width: 40%;
+}
+
+.product_detail .part2 button {
+    padding: 15px;
+    color: #030f27;
+    background-color: #fdbe33;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-size: 20px;
+}
+
+.product_detail .part2 .contact_back {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_detail .part2 .contact_back input {
+    padding: 5px;
+
+}
+
+.product_detail .part2 .contact_back button {
+    font-size: 15px;
+    padding: 5px;
+    color: #030f27;
+    background-color: #fdbe33;
+    border-radius: 5px;
+
+
+}
+
+.img_small .row {
+    padding: 0 12px;
+}
+
+.img_small .row .col {
+    padding: 0;
+    margin-right: 5px;
+}
+
+.img_small .row .col img {
+    max-width: 503px;
+    width: 100%;
+    height: 100%;
+}
+
+.best_seller {
+    height: 450px;
+}
+
+.best_seller .row .col {
+    height: 100%;
+}
+
+.best_seller .row .col img {
+    max-height: 300px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.best_seller h3 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.best_seller .row .col p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.best_seller .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best_seller .viewMore {
+    text-align: center;
+
+    color: #000;
+
+
+}
+
+.best_seller .viewMore a {
+    padding: 2px 5px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+
+
+
+}
+
+.same_type {
+    height: 100%;
+}
+
+.same_type .row .col {
+    height: 100%;
+}
+
+.same_type .row .col img {
+    max-height: 300px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.same_type h3 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.same_type .row .col p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.same_type .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.same_type .viewMore {
+    text-align: center;
+
+    color: #000;
+
+
+}
+
+.same_type .viewMore a {
+    padding: 2px 5px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+
+
+
+}
+
+.comment_all {
+    /* Thêm các thuộc tính CSS cho phần tổng thể của trường bình luận */
+}
+
+.avatar {
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    /* Thêm các thuộc tính CSS cho ảnh đại diện */
+}
+
+.comment_input {}
+
+.comment_all .border {
+    margin-top: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.comment_input .post_place {
+    max-width: 100%;
+}
+
+.comment_input .post_place button{
+    padding: 5px 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.comment_input .post_place .img_post {}
+
+.comment_textarea {
+
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    resize: none;
+    height: 60px;
+    max-height: 60px;
+    /* Thêm các thuộc tính CSS khác cho textarea nhập bình luận */
+}
+
+.comment_textarea::placeholder {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+
+.comment_row {
+    margin-top: 30px;
+    /* Thêm các thuộc tính CSS cho hàng bình luận */
+}
+
+.comment_content {
+    margin-left: 15px;
+}
+
+.comment_content h6 {
+    font-size: 20px;
+}
+.disableComment{
+    position: relative;
+    height: 75px;
+    background-color: #e7e7e7;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.disableComment p{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.disableComment p a{
+   text-decoration: none;
+   
+}

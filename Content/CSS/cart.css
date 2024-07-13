@@ -1,0 +1,177 @@
+body {
+    background: #ddd;
+    min-height: 100vh;
+    vertical-align: middle;
+
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.cart_all .title {
+    margin-bottom: 5vh;
+}
+
+.card {
+    margin: auto;
+    max-width: 1200px;
+    width: 90%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent;
+}
+
+@media(max-width:767px) {
+    .card {
+        margin: 3vh auto;
+    }
+}
+
+.cart_all .cart {
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+@media(max-width:767px) {
+    .cart_all .cart {
+        padding: 4vh;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 1rem;
+    }
+}
+
+.cart_all .summary {
+    background-color: #ddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+}
+
+@media(max-width:767px) {
+    .cart_all .summary {
+        border-top-right-radius: unset;
+        border-bottom-left-radius: 1rem;
+    }
+}
+
+.cart_all .summary .col-2 {
+    padding: 0;
+}
+
+.cart_all .summary .col-10 {
+    padding: 0;
+}
+
+.cart_all .row {
+    margin: 0;
+}
+
+.cart_all .title b {
+    font-size: 1.5rem;
+}
+
+.cart_all .main {
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+}
+
+.cart_all .col-2,
+.cart_all .col {
+    padding: 0 1vh;
+}
+
+.cart_all a {
+    padding: 0 1vh;
+}
+
+.cart_all .close {
+    margin-left: auto;
+    font-size: 0.7rem;
+}
+
+.cart_all img {
+    width: 3.5rem;
+}
+
+.cart_all .back-to-shop {
+    margin-top: 4.5rem;
+}
+
+.cart_all h5 {
+    margin-top: 4vh;
+}
+
+.cart_all hr {
+    margin-top: 1.25rem;
+}
+
+.cart_all form {
+    padding: 2vh 0;
+}
+
+.cart_all select {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1.5vh 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+.cart_all input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+.cart_all input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.cart_all .btn {
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 4vh;
+    padding: 1vh;
+    border-radius: 0;
+}
+
+.cart_all .btn:focus {
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none;
+}
+
+.cart_all .btn:hover {
+    color: white;
+}
+
+.cart_all a {
+    color: black;
+}
+
+.cart_all a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#code {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+}

@@ -1,0 +1,135 @@
+.search_filter_all {
+    padding: 20px 30px;
+}
+
+.search_filter_all .row .col-2 {
+    position: sticky;
+    position: -webkit-sticky;
+  
+    position: sticky;
+    top: 100px;
+    height: 100%;
+    background-color: #272727;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 4px 5px 5px 0px rgba(40, 40, 40, 0.27);
+    border-radius: 15px;
+}
+
+.search_filter_all .row .col-10 {}
+
+.search_filter_all .row .col-10 .sort_all {
+    margin: 0 0;
+
+    border-radius: 15px;
+}
+
+
+.sort_all .sort_type {
+    margin-right: 2%;
+}
+
+/* showproduct */
+.show_Product .card {
+    margin: 22px 45px 22px 0;
+    box-shadow: 14px 18px 12px -13px rgba(42, 42, 42, 0.46);
+}
+
+.show_Product .card .card-body p {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+
+}
+
+
+.show_Product .card .card-body .card-text.active {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.show_Product .card .card-body .card-text.sale {
+    font-size: 16px;
+    color: #757575 !important;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.show_Product .card .card-body .card-text-sale {
+    font-size: 16px;
+    color: red !important;
+    font-weight: 700;
+
+}
+
+.show_Product .card .card-body .color_Product ul {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+
+}
+
+.show_Product .card .card-body .color_Product ul li {
+
+
+    list-style: none;
+
+}
+
+.show_Product .card .card-body .color_Product ul li a {
+    border-radius: 50%;
+
+    padding: 5px;
+    background-color: #5CFFFF;
+    list-style: none;
+    margin-right: 5px;
+    display: inline-block;
+    width: 15px;
+    /* Điều chỉnh kích thước theo ý muốn */
+    height: 15px;
+    /* Điều chỉnh kích thước theo ý muốn */
+    border-radius: 50%;
+    /* Áp dụng hình tròn bằng cách sử dụng giá trị 50% */
+
+
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.pageF {
+    margin-top: 30px;
+    padding-right: 12%;
+}
+
+.pageF ul li {
+    color: #000;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.pageF ul li a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #757575;
+    text-decoration: none;
+    color: #000;
+    transition: .4s;
+}
+
+.pageF ul li a:hover {
+    background-color: #000;
+    color: #eee;
+}
+
+.disabledPage {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.alrPage {
+    background-color: #000;
+    color: #eee;
+}
