@@ -44,8 +44,8 @@ If you catch any bug, please dm me:
     - Support Ticket Manager(Update)
     ...
 ```
-# 5. Installation instructions
-## 5.1 Edit Connect Database
+# 4. Installation instructions
+## 4.1 Edit Connect Database
 
 You need to change the connection information and import sql file to the database after you have cloned my repository so that the website can work.
 
@@ -64,7 +64,7 @@ And change the connection information to match your database in .env file:
 >
 > The path of the database config file that is using these environment variables is located at: [`/model/connect/connect.php`]
 
-## 5.2 Edit SMTP Mail
+## 4.2 Edit SMTP Mail
 
 > The third thing: 
 You need to change the information about **SMTP Mail** to be able to use some functions about user account authentication, change passwords, notify users, ...
@@ -92,7 +92,7 @@ Tips: https://support.google.com/accounts/answer/185833?hl=en
 >
 > The path of the email config file that is using these environment variables is located at: [`/Model/forgetpw.php`]
 
-# 6. Demo
+# 5. Demo
 
 > 
 > 
